@@ -1,11 +1,11 @@
 torchsde==0.2.5
 einops==0.4.1
-transformers==4.30.2
+transformers==4.33.1
 safetensors==0.3.1
 accelerate==0.21.0
 pyyaml==6.0
 Pillow==9.2.0
-scipy==1.10.1
+scipy==1.11.2
 tqdm==4.66.3
 psutil==5.9.5
 pytorch_lightning==1.9.4
@@ -22,5 +22,9 @@ cubinlinker
 keras-core
 wurlitzer
 libucx<1.16,>=1.15.0
-numpy==1.21.6
-
+numpy==1.24.3
+dill<0.3.2,>=0.3.1.1
+pyarrow<10.0.0,>=3.0.0
+packaging>=23.1
+shapely>=2.0.1
+requests>=2.32.2
